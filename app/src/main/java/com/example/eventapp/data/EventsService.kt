@@ -21,7 +21,7 @@ class DefaultEventsService @Inject constructor(
 
     override suspend fun getEvents(request: EventsRequest): EventsResponse? {
         val resp = eventsApi.getEvents(
-            "",
+            "<your_api_key>",
             request.size,
             request.segmentNames,
             request.startDate,
