@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.home.HomeFragment">
+
+    <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="32dp"/>
+    <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/sportsSwitch"
+            android:text="@string/sports_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/datePicker"
+            android:layout_marginStart="32dp"
+            app:layout_constraintBottom_toTopOf="@+id/seekBar"/>
+    <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/musicSwitch"
+            android:text="@string/music_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/sportsSwitch"
+            app:layout_constraintEnd_toStartOf="@+id/moviesSwitch"
+            app:layout_constraintTop_toBottomOf="@+id/datePicker"
+            app:layout_constraintBottom_toTopOf="@+id/seekBar"/>
+    <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/moviesSwitch"
+            android:text="@string/movies_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/datePicker"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintBottom_toTopOf="@+id/seekBar"/>
+    <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="284dp"
+            android:layout_height="16dp"
+            android:min="0" android:max="100" android:progress="0" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.496"
+            android:layout_marginBottom="132dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

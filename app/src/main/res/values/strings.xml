@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Event App</string>
+    <string name="title_home">Home</string>
+    <string name="title_browse">Browse</string>
+    <string name="title_saved">Saved</string>
+    <string name="textview">TextView</string>
+    <string name="distance_content_desc">Distance</string>
+    <string name="find_events">Find Events</string>
+    <string name="movies_switch_text">Movies</string>
+    <string name="arts_switch_text">Arts</string>
+    <string name="music_switch_text">Music</string>
+    <string name="find_button">Find Events</string>
+    <string name="sports_switch">Sports</string>
+    <string name="music_switch">Music</string>
+    <string name="movies_switch">Movies</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="title">Title</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="heart_description">Save to favorites</string>
+    <string name="image_desc">event main image</string>
+    <string name="event_name">TextView</string>
+    <string name="open_in_web_desc">open in browser</string>
+    <string name="save_button_desc">save event</string>
+</resources>
